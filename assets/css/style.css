@@ -1,0 +1,43 @@
+/* website main font */
+@font-face {
+    font-family: 'MainFont';
+    src: url('../fonts/chomsky/Chomsky.woff2') format('woff2'), 
+         url('../fonts/chomsky/Chomsky.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'MainFont', sans-serif;
+}
+
+
+
+/* gradient background + effect */
+.background {
+    background-image: url('../images/experiment-3.png');
+    background-position: center;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+.white-shadow {
+    background-image: linear-gradient(to bottom, #ffffff59, rgba(0, 0, 0, 0));
+}
+
+
+
+/* nav decoration */
+nav .nav-link {
+    color: rgb(255, 255, 255) !important;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly !important;
+    font-size: xx-large;
+}
+
+
+
