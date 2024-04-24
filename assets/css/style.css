@@ -41,3 +41,23 @@ nav ul {
 
 
 
+/* hero */
+.main-img {
+    height: 85vh;
+    width: 100%;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* footer */
+footer {
+    color: rgba(255, 255, 255, 0.708);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+}
