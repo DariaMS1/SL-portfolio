@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Sofia's Porfolio</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="/assets/css/style.css">
+        <link rel="icon" href="/assets/images/logos/logo-8.3.png">
+    </head>
+
+    <body class="background">
+    
+        <header>
+            <nav class="p-3 white-shadow">
+                <ul class="nav align-items-center">
+                    <li class="nav-item nav-underline">
+                    <a class="nav-link" href="./socials.html">Socials</a>
+                    </li>
+                    <li class="nav-item nav-underline">
+                    <a class="nav-link" href="./gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item" id="logo">
+                    <a class="nav-link" href="./home.html"><img src="/assets/images/logos/logo-8.3.png" width="130" id="logo-img"></a>
+                    </li>
+                    <li class="nav-item nav-underline">
+                    <a class="nav-link" href="./about.html">About</a>
+                    </li>
+                    <li class="nav-item nav-underline">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    
+        <!-- add content -->
+
+        <footer class="d-flex justify-content-center align-items-end p-5" id="footer">
+
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    const footer = document.getElementById('footer');
+                    const currentDate = new Date().toLocaleDateString('en-UK');
+                    footer.innerHTML = `&copy; ${currentDate} Sofia Denise`;
+                });
+            </script>
+        
+        </footer>
+    
+        <!-- Bootstrap JAVASCRIPT -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+</html>
