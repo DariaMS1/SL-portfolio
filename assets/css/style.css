@@ -14,22 +14,11 @@
 
 
 /* gradient background + effect */
-/* background-home class not currently implemented */
-.background-home {
-    background-image: url('../images/home-pg-2.png');
-    background-position: center;
-    background-size: cover;
-    background-repeat: repeat;
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-}
-
 .background {
     /* background-image: url('../images/experiment-3.png'); */
     background-image: url('../images/website-background-experiment-4.png');
     background-position: center;
-    background-size: cover;
+    /* background-size: cover; */
     /* position: absolute; */
     /* unsure why i added ^*/
 }
@@ -71,6 +60,18 @@ footer {
 
 
 
+
+/* home */
+#home-img {
+    display: flex;
+    justify-content: center;
+    margin-top: -3%;
+    /* below: positioning the img better */
+    margin-left: 4%;
+}
+
+
+
 /* socials */
 
 
@@ -104,7 +105,13 @@ footer {
 
 
 /* about */
+#about {
+    color: rgb(255, 255, 255);
+}
 
+#about-portrait {
+    width: 40vw;
+}
 
 
 /* contact */
