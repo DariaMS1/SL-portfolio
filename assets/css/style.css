@@ -6,7 +6,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
 * {
     font-family: 'MainFont', sans-serif;
 }
@@ -22,7 +21,6 @@
     /* position: absolute; */
     /* unsure why i added ^*/
 }
-
 .white-shadow {
     background-image: linear-gradient(to bottom, #ffffff59, rgba(0, 0, 0, 0));
 }
@@ -33,13 +31,11 @@
 nav .nav-link {
     color: rgb(255, 255, 255) !important;
 }
-
 nav ul {
     display: flex;
     justify-content: space-evenly !important;
     font-size: xx-large;
 }
-
 #logo {
     display: flex;
     justify-content: center;
@@ -56,6 +52,41 @@ footer {
     color: rgba(255, 255, 255, 0.708);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: small;
+}
+/* instagram */
+#footer-instagram a p, i {
+    display: inline;
+}
+#footer-instagram h5, a {
+    display: inline;
+    color: rgba(255, 255, 255, 0.708);
+    text-decoration: none;
+}
+/* email */
+#footer-instagram a p, i {
+    display: inline;
+}
+#footer-email h5, a {
+    display: inline;
+    color: rgba(255, 255, 255, 0.708);
+    text-decoration: none;
+}
+/* phone */
+#footer-instagram a p, i {
+    display: inline;
+}
+#footer-phone h5, p, i {
+    display: inline;
+}
+.social-links-container {
+    color: rgba(255, 255, 255, 0.708);
+}
+/* footer links highlight */
+.social-links-container a:hover {
+    text-decoration: underline;
+}
+.social-links div {
+    text-decoration: none;
 }
 
 
@@ -82,7 +113,6 @@ footer {
     width: 91vw;
     margin: auto;
 }
-
 .gallery-display-size {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -90,28 +120,26 @@ footer {
     margin: auto;
     /* margin-top: %; */
 }
-
 .img-size-fix {
 
 }
-
 .art-title {
     visibility: hidden;
 }
-
 .art-title:hover {
     visibility: visible;
 }
+
 
 
 /* about */
 #about {
     color: rgb(255, 255, 255);
 }
-
 #about-portrait {
     width: 40vw;
 }
+
 
 
 /* contact */
